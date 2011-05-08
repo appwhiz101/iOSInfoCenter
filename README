@@ -1,0 +1,8 @@
+This API lets you view the Build Number and the Bundle Identifier.
+
+Firstly, drag the iOSInfoCenter into your project.  Then call
+iOSInfoCenter *avc = [[iOSInfoCenter alloc] init];
+To get the build number call
+NSString *build = [avc buildnumber];
+To get the bundle identifier call
+NSString *bundle = [avc bundleid];
